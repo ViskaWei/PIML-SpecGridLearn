@@ -1,0 +1,9 @@
+[submodule "modules/PIMLbase"]
+	path = modules/PIMLbase
+	url = https://github.com/ViskaWei/PIMLbase.git
+[submodule "modules/PIMLspec"]
+	path = modules/PIMLspec
+	url = https://github.com/ViskaWei/PIMLspec.git
+[submodule "modules/PIMLgrid"]
+	path = modules/PIMLgrid
+	url = https://github.com/ViskaWei/PIMLgrid.git

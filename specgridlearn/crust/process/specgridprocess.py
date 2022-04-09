@@ -1,5 +1,3 @@
-
-
 from abc import ABC, abstractmethod
 from grid.center.crust.process.gridprocess import StellarGridProcess
 from spec.center.crust.process.specprocess import StellarSpecProcess
@@ -20,7 +18,7 @@ class StellarSpecOnSpecGridProcess(StellarSpecProcess):
 
 class StellarGridOnSpecGridProcess(StellarGridProcess):
     def set_process(self, PARAM):
-        return super().set_process(PARAM["OP"], PARAM["MODEL"], PARAM["DATA"])
+        return super().set_process(PARAM["OP"], PARAM["MODEL"], None)
 
     def finish(self, SpecGrid: StellarSpecGrid):
         pass

@@ -1,6 +1,4 @@
-import os
-from abc import ABC, abstractmethod
-from base.interface.gateway.baseloaderIF import DataLoaderIF, DictLoaderIF, ObjectLoaderIF
+from base.interface.gateway.baseloaderIF import DictLoaderIF, ObjectLoaderIF
 from specgridlearn.crust.data.specgrid import StellarSpecGrid
 
 class BoszLoaderIF(ObjectLoaderIF):

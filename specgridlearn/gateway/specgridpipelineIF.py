@@ -22,3 +22,5 @@ class SpecGridPipelineIF():
         self.set_object(PARAM["OBJECT"])
         self.set_param(PARAM)
         self.pipeline.run(self.PARAM, self.Object)
+
+        

@@ -4,8 +4,8 @@ from grid.center.crust.data.basegrid import StellarGrid
 
 class StellarSpecGrid(StellarSpec, StellarGrid):
     def __init__(self, wave, flux, para):
-        super(StellarSpec, self).__init__(wave, flux)
-        super(StellarGrid, self).__init__(para, None)
+        StellarSpec.__init__(self, wave, flux)
+        StellarGrid.__init__(self, para, None)
 
         assert self.num_spec == self.coord.shape[0]
 

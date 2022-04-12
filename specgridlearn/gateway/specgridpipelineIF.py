@@ -9,11 +9,11 @@ class SpecGridPipelineIF(ProcessIF):
         super().__init__()
         self.Object   = None
         self.Loader   = BoszLoaderIF()
-        self.paramIF  = SpecGridParamIF()
-        self.pipeline = SpecGridPipeline()
+        self.Param  = SpecGridParamIF()
+        self.Pipeline = SpecGridPipeline()
         self.Storer   = None
 
     def interact_on_Object(self, Object):
-        self.pipeline.run(self.PARAM, Object)
+        self.Pipeline.run(self.PARAM, Object)
 
         

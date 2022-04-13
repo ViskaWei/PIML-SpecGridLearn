@@ -9,7 +9,7 @@ class SpecGridPipelineIF(ProcessIF):
         super().__init__()
         self.Object   = None
         self.Loader   = BoszLoaderIF()
-        self.Param  = SpecGridParamIF()
+        self.Param    = SpecGridParamIF()
         self.Pipeline = SpecGridPipeline()
         self.Storer   = None
 

@@ -7,3 +7,6 @@
 [submodule "modules/PIMLgrid"]
 	path = modules/PIMLgrid
 	url = https://github.com/ViskaWei/PIMLgrid.git
+[submodule "modules/PIMLprepnn"]
+	path = modules/PIMLprepnn
+	url = https://github.com/ViskaWei/PIMLprepnn.git
